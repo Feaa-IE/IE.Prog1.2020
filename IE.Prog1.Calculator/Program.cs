@@ -15,31 +15,55 @@ namespace IE.Prog1.Calculator
             double b;
             string op;
 
-            //preiau valori
-            Console.WriteLine("Introduceti a:");
-            a = double.Parse(Console.ReadLine());
-
-            Console.WriteLine("Introduceti b:");
-            b = double.Parse(Console.ReadLine());
-
-            Console.WriteLine("Introduceti operatorul:");
-            op = Console.ReadLine();
-
-            double rezultat;
-            //logica
-            switch (op)
+            do
             {
-                case "+":
-                    rezultat = a + b;
-                    break;
+                //preiau valori
+                Console.WriteLine("Introduceti a:");
+                a = double.Parse(Console.ReadLine());
 
-                default:
-                    break;
-            }
+                Console.WriteLine("Introduceti b:");
+                b = double.Parse(Console.ReadLine());
 
-            Console.WriteLine($"{a}{op}{b}={rezultat}");
-            Console.WriteLine(a + op + b + "=" + rezultat);
+                Console.WriteLine("Introduceti operatorul:");
+                op = Console.ReadLine();
 
+                double rezultat;
+                bool opValid = true;
+                //logica
+                switch (op)
+                {
+                    case "-":
+                        rezultat = a - b;
+                        break;
+                    case "+":
+                    case "suma":
+                        rezultat = a + b;
+                        break;
+                    case "*":
+                        rezultat = a * b;
+                        break;
+                    case "/":
+                        rezultat = a / b;
+                        break;
+                    default:
+                        // goto case "+";
+                        rezultat = 0;
+                        opValid = false;
+                        break;
+                }
+
+                if (opValid == false)
+                {
+                    Console.WriteLine("Operatia nu este suportata!");
+                }
+                else
+                {
+                    Console.WriteLine($"{a}{op}{b}={rezultat}");
+                    //Console.WriteLine(a + op + b + "=" + rezultat);
+                }
+            } while (Console.ReadKey().Key != ConsoleKey.Escape);
+
+            // Console.ReadKey();
 
         }
     }

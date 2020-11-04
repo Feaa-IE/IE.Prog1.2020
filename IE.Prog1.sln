@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IE.Prog1.Calculator", "IE.P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IE.Prog1.RugbyCup", "IE.Prog1.RugbyCup\IE.Prog1.RugbyCup.csproj", "{822A1B29-3639-4FC1-9F12-CFE9BA27C3C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IE.Prog1.MedieNumerePare", "IE.Prog1.MedieNumerePare\IE.Prog1.MedieNumerePare.csproj", "{EE8157FE-23A3-4ACE-A179-5635F76FC749}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IE.Prog1.CursSchimb", "IE.Prog1.CursSchimb\IE.Prog1.CursSchimb.csproj", "{5E7AE5CA-5835-4268-81F3-7C38F022354F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{822A1B29-3639-4FC1-9F12-CFE9BA27C3C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{822A1B29-3639-4FC1-9F12-CFE9BA27C3C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{822A1B29-3639-4FC1-9F12-CFE9BA27C3C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE8157FE-23A3-4ACE-A179-5635F76FC749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE8157FE-23A3-4ACE-A179-5635F76FC749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE8157FE-23A3-4ACE-A179-5635F76FC749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE8157FE-23A3-4ACE-A179-5635F76FC749}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E7AE5CA-5835-4268-81F3-7C38F022354F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E7AE5CA-5835-4268-81F3-7C38F022354F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E7AE5CA-5835-4268-81F3-7C38F022354F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E7AE5CA-5835-4268-81F3-7C38F022354F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
