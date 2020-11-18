@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5E7AE5CA-5835-4268-81F3-7C38F022354F}</ProjectGuid>
+    <ProjectGuid>{92208C5A-F7BA-40DD-A5C5-50D7C1A34BD0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>IE.Prog1.CursSchimb</RootNamespace>
-    <AssemblyName>IE.Prog1.CursSchimb</AssemblyName>
+    <RootNamespace>IE.Prog1.CursSchimbV2</RootNamespace>
+    <AssemblyName>IE.Prog1.CursSchimbV2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
