@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IE.Prog1.Util", "IE.Prog1.U
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IE.Prog1.MasinaV2", "IE.Prog1.MasinaV2\IE.Prog1.MasinaV2.csproj", "{9D468A88-84F4-47F3-A6EA-58741D591330}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IE.Prog1.EqGrad2", "IE.Prog1.EqGrad2\IE.Prog1.EqGrad2.csproj", "{1035ECF1-740A-4FBC-825A-267BBAF07750}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{9D468A88-84F4-47F3-A6EA-58741D591330}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D468A88-84F4-47F3-A6EA-58741D591330}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D468A88-84F4-47F3-A6EA-58741D591330}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1035ECF1-740A-4FBC-825A-267BBAF07750}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1035ECF1-740A-4FBC-825A-267BBAF07750}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1035ECF1-740A-4FBC-825A-267BBAF07750}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1035ECF1-740A-4FBC-825A-267BBAF07750}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

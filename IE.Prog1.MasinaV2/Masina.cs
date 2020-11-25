@@ -8,10 +8,15 @@ namespace IE.Prog1.MasinaV2
 {
     struct Masina
     {
-        string Marca;
-        DateTime DataFab;
-        string Culoare;
-        float Pret;
-        bool AreEuro6;
+        public string Marca;
+        public DateTime DataFab;
+        public string Culoare;
+        public float Pret;
+        public bool AreEuro6;
+
+        public override string ToString()
+        {
+            return Marca + " de culoare " + Culoare + " fabricata la data " + this.DataFab + " cu euro 6 = " + AreEuro6 + " costa " + Pret;
+        }
     }
 }
