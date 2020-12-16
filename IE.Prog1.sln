@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IE.Prog1.EqGrad2", "IE.Prog
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IE.Prog1.ListaNume", "IE.Prog1.ListaNume\IE.Prog1.ListaNume.csproj", "{9CD924FD-5DFB-4AE7-8BCE-025980FD12E3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IE.Prog1.Albume", "IE.Prog1.Albume\IE.Prog1.Albume.csproj", "{8934B6AE-A509-4EFC-B9C3-B6DAF1B46831}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{9CD924FD-5DFB-4AE7-8BCE-025980FD12E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CD924FD-5DFB-4AE7-8BCE-025980FD12E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CD924FD-5DFB-4AE7-8BCE-025980FD12E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8934B6AE-A509-4EFC-B9C3-B6DAF1B46831}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8934B6AE-A509-4EFC-B9C3-B6DAF1B46831}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8934B6AE-A509-4EFC-B9C3-B6DAF1B46831}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8934B6AE-A509-4EFC-B9C3-B6DAF1B46831}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

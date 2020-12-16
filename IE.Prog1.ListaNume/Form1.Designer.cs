@@ -56,9 +56,9 @@ namespace IE.Prog1.ListaNume
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 4;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 100F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 100F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(800, 450);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
@@ -99,7 +99,7 @@ namespace IE.Prog1.ListaNume
             this.uxListBoxNume.FormattingEnabled = true;
             this.uxListBoxNume.Location = new System.Drawing.Point(3, 103);
             this.uxListBoxNume.Name = "uxListBoxNume";
-            this.uxListBoxNume.Size = new System.Drawing.Size(794, 95);
+            this.uxListBoxNume.Size = new System.Drawing.Size(794, 108);
             this.uxListBoxNume.TabIndex = 1;
             // 
             // flowLayoutPanel2
@@ -108,7 +108,7 @@ namespace IE.Prog1.ListaNume
             | System.Windows.Forms.AnchorStyles.Right)));
             this.flowLayoutPanel2.Controls.Add(this.uxTextBoxCauta);
             this.flowLayoutPanel2.Controls.Add(this.uxButtonMuta);
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(3, 205);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(3, 228);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.flowLayoutPanel2.Size = new System.Drawing.Size(794, 94);
             this.flowLayoutPanel2.TabIndex = 2;
@@ -136,9 +136,9 @@ namespace IE.Prog1.ListaNume
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.uxListBoxMutate.FormattingEnabled = true;
-            this.uxListBoxMutate.Location = new System.Drawing.Point(3, 305);
+            this.uxListBoxMutate.Location = new System.Drawing.Point(3, 328);
             this.uxListBoxMutate.Name = "uxListBoxMutate";
-            this.uxListBoxMutate.Size = new System.Drawing.Size(794, 134);
+            this.uxListBoxMutate.Size = new System.Drawing.Size(794, 108);
             this.uxListBoxMutate.TabIndex = 3;
             // 
             // Form1
