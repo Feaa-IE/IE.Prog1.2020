@@ -37,6 +37,12 @@ namespace IE.Prog1.Albume
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            Populeaza();
+
+        }
+
+        private void Populeaza()
+        {
             OleDbConnection conn = GetConexiune();
             if (conn == null)
             {
@@ -51,6 +57,7 @@ namespace IE.Prog1.Albume
             OleDbDataReader reader = selectCommand.ExecuteReader();
 
             DataTable albume = new DataTable("Albume");
+
             albume.Load(reader);
 
             uxComboBoxAlbume.DataSource = albume;
@@ -64,8 +71,6 @@ namespace IE.Prog1.Albume
             {
                 conn.Close();
             }
-
-
         }
 
         private void uxComboBoxAlbume_SelectedIndexChanged(object sender, EventArgs e)
@@ -151,7 +156,7 @@ namespace IE.Prog1.Albume
             if (uxTextBoxInv.Text != "-1")
             {
                 //update
-                salveazaCommand.Parameters.AddWithValue("id", long.Parse(uxTextBoxInv.Text));
+                salveazaCommand.Parameters.AddWithValue("id", int.Parse(uxTextBoxInv.Text));
             }
 
 
@@ -159,6 +164,7 @@ namespace IE.Prog1.Albume
             if (afectate > 0)
             {
                 MessageBox.Show("Albumul a fost salvat cu succes!");
+                Populeaza();
             }
             else
             {
@@ -170,6 +176,33 @@ namespace IE.Prog1.Albume
                 conn.Close();
             }
 
+        }
+
+        private void uxButtonSterge_Click(object sender, EventArgs e)
+        {
+            OleDbConnection conn = this.GetConexiune();
+            if (conn == null)
+            {
+                return;
+            }
+            OleDbCommand deleteCommand = new OleDbCommand("delete from Albume where ID=@id", conn);
+            deleteCommand.Parameters.AddWithValue("id", (int)uxComboBoxAlbume.SelectedValue);
+
+            int sterse = deleteCommand.ExecuteNonQuery();
+            if (sterse > 0)
+            {
+                MessageBox.Show("Stergerea a reusit!");
+                Populeaza();
+            }
+            else
+            {
+                MessageBox.Show("Stergerea a esuat!");
+            }
+
+            if (conn.State == ConnectionState.Open)
+            {
+                conn.Close();
+            }
         }
     }
 }

@@ -99,6 +99,7 @@
             this.uxButtonSterge.TabIndex = 1;
             this.uxButtonSterge.Text = "Sterge";
             this.uxButtonSterge.UseVisualStyleBackColor = true;
+            this.uxButtonSterge.Click += new System.EventHandler(this.uxButtonSterge_Click);
             // 
             // uxButtonNou
             // 

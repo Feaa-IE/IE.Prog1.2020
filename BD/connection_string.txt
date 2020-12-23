@@ -1,0 +1,1 @@
+@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\Vladimir\Documents\FEAA Cursuri\Programare1\2019\IE.Prg1\BD\GestAlbume.accdb;Persist Security Info=False;"
